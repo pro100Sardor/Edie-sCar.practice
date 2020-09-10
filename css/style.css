@@ -1,0 +1,168 @@
+@font-face {
+  font-family: "Proxima Nova Alt Lt";
+  src: url("../fonts/ProximaNovaA-Light.woff2") format("woff2"),
+      url("../fonts/ProximaNovaA-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Proxima Nova Alt Rg";
+  src: url("../fonts/ProximaNovaA-Bold.woff2") format("woff2"),
+      url("../fonts/ProximaNovaA-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Proxima Nova Alt Th";
+  src: url("../fonts/ProximaNovaA-Thin.woff2") format("woff2"),
+      url("../fonts/ProximaNovaA-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Proxima Nova Rg";
+  src: url("../fonts/ProximaNova-Bold.woff2") format("woff2"),
+      url("../fonts/ProximaNova-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Proxima Nova Th";
+  src: url("../fonts/ProximaNova-Extrabld.woff2") format("woff2"),
+      url("../fonts/ProximaNova-Extrabld.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Proxima Nova Bl";
+  src: url("../fonts/ProximaNova-Black.woff2") format("woff2"),
+      url("../fonts/ProximaNova-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Proxima Nova Th";
+  src: url("../fonts/ProximaNovaT-Thin.woff2") format("woff2"),
+      url("../fonts/ProximaNovaT-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Proxima Nova Rg";
+  src: url("../fonts/ProximaNova-Regular.woff2") format("woff2"),
+      url("../fonts/ProximaNova-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  margin: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Proxima Nova";
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/*===== GENERAL STAYLES ENDED =====*/
+
+
+/*===== HEADER STYLES STARTED =====*/
+
+.page-header {
+  width: 100%;
+  background-color: #222;
+}
+
+.page-header-container {
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.page-header-link {
+  margin-right: auto;
+  transition: opacity 0.2s ease;
+}
+
+.page-header-link:hover {
+  opacity: 0.8;
+}
+
+.page-header-link:active {
+  opacity: 0.6;
+}
+
+.page-header-logo-image {
+  display: block;
+  width: 191px;
+  height: 41px;
+}
+
+.header-connection-info-container {
+  display: flex;
+  align-items: center;
+  width: 630px;
+}
+
+.working-hours-text {
+  margin-right: auto;
+  width: 85px;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.working-hours {
+  font-weight: 700;
+}
+
+.hotlines-container {
+  display: flex;
+  flex-direction: column;
+}
+
+/*===== HEADER STYLES STARTED =====*/
